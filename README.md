@@ -11,7 +11,7 @@ Hello. In this guide, I will inform you about how to have longer battery life. L
 Of course these are known factors and managing them should be your first step for a longer lasting battery. Now let's get into more detailed parts.
 ## Major Suggestion - Install A Custom ROM (Optional)
 - First of all, I definitely suggest you to install a **custom ROM** because stock ROMs are full of **bloatware (unwanted apps)** and custom ROMs are more **lightweight** and generally **barebone**. The ROMs I can suggest is **LineageOS**, if your device is not supported, I suggest **CrDroid** instead.
-- If you want to keep using your current ROM, you can skip to [the next step].
+- If you want to keep using your current ROM, you can skip to [the next step](https://github.com/cutiepenguins/Android-Longer-Battery-Life-Guide/blob/main/README.md#other-suggestions---for-everyone-regardless-of-the-rom).
 - Assuming you installed one of these ROMs or any other **Vanilla ROM**, I am continuing with my next suggestion after installing a Vanilla ROM: **MicroG**
 ### MicroG
 - MicroG is an **open source re-implementation of Google services and libraries** and all you have to do is **installing .apk files from the** [website](https://microg.org/download.html). It is so easy! Also, **Huawei** devices can also use MicroG! However, if you want to use MicroG on **another custom ROM**, you should take a look at [this article](https://github.com/microg/GmsCore/wiki/Signature-Spoofing), otherwise, MicroG **won't work** on your device!!!

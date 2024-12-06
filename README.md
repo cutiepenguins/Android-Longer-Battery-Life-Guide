@@ -1,5 +1,5 @@
 # Android Longer Battery Life Guide
-Hello 🤭. In this guide, I will inform you about how to have longer battery life. Let's begin!
+Hello 🤭. In this guide, you will be informed about how to have longer battery life on your Android device. Let's begin!
 ## Factors That Cause Your Battery to Drain Faster
 - **Location services**
 - **Bluetooth**

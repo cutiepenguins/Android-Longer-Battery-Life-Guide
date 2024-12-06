@@ -23,10 +23,15 @@ Of course these are known factors and managing them should be your first step fo
       - For the network-based geolocation module, I suggest you to install `Apple UnifiedNlp Backend UnifiedNlp location provider (Apple Wi-Fi)` from **F-Droid**. After installing, go back to **microG Settings app** and go to `Location modules`, next, enable `Nominatim` and `Apple Wi-Fi`.
 - The last step after configuring MicroG is installing a **store app**. My suggestion is [Aurora Store](https://auroraoss.com/), it's an **open source Play Store alternative** and it **doesn't send any telemetry to Google**.
 ## Other Suggestions - For Everyone Regardless of the ROM
-- If your manufacturer lets you to reduce **screen resolution**, choose the reduced screen resolution. If not, you can still make it using **ADB** but you need a computer for it.
-  - You can install, set up and connect your phone to ADB [following this guide](https://www.xda-developers.com/install-adb-windows-macos-linux/)
-  - After connecting, google your phone model and check its native resolution. For my case, my phone **Xiaomi Redmi Note 8's** native resolution is `1080x2340` which makes it **1080p**, so I'll reduce to **720p** to balance quality and battery life.
-  - After the step, execute this command to change screen resolution:
-    - `adb shell wm size [resolution]` - for **Xiaomi Redmi Note 8**, `720x1565` is an ideal value for resolution. You can experiment it to make it fit your screen.
-  - After reducing resolution, you can notice that items on your screen now look way bigger. So, we should change **DPI (dots per inch)** to balance it.
-    - `adb shell wm density [DPI value]` - for **Xiaomi Redmi Note 8**, `270` is an ideal value for DPI. You can experiment it for your screen.
+- My first suggestion is **reducing screen resolution**. It **doesn't** help with battery life **drastically** but it sure helps. However, it **drastically improves performance** since your CPU + GPU work under less loads. So, it's good both ways. 
+  - If your manufacturer lets you to reduce **screen resolution**, choose the reduced screen resolution. If not, you can still make it using **ADB** but you need a computer for it.
+    - You can install, set up and connect your phone to ADB [following this guide](https://www.xda-developers.com/install-adb-windows-macos-linux/)
+    -  After connecting, google your phone model and check its native resolution. For my case, my phone **Xiaomi Redmi Note 8's** native resolution is `1080x2340` which makes it **1080p**, so I'll reduce to **720p** to balance quality and battery life.
+    - After the step, execute this command to change screen resolution:
+      - `adb shell wm size [resolution]` - for **Xiaomi Redmi Note 8**, `720x1565` is an ideal value for resolution. You can experiment it to make it fit your screen.
+    - After reducing resolution, you can notice that items on your screen now look way bigger. So, we should change **DPI (dots per inch)** to balance it executing this command:
+      - `adb shell wm density [DPI value]` - for **Xiaomi Redmi Note 8**, `270` is an ideal value for DPI. You can experiment it for your screen.
+- My second suggestion is **using battery saver mode**. However, if it **doesn't** specify that **the battery saver restricts CPU cores**, you don't have to enable it since it only restricts background processes which doesn't help with battery life at all.
+  - For example, many **Samsung** phones' battery savers restrict CPU cores while **Redmi Note 8's** battery saver only restricts background processes. So, if your battery saver restricts CPU cores, use it.
+  - If not, you can still restrict CPU and GPU usage using a **kernel manager**. However, **your device must be rooted!**. If you won't root your device, unfortunately you can't restrict CPU and GPU usage for a better battery life.
+    - If your device **is rooted**, install a kernel manager. My suggestion is `SmartPack Kernel Manager` from **F-Droid**. Simply open the app, grant **root/superuser permissions** and choose the lowest values for your CPU and GPU (you don't have to choose the lowest values if you don't want to maximize battery life because you need performance too). Make sure to enable `Apply on boot` options for both sections.

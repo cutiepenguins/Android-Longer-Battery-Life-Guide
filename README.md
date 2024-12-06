@@ -10,7 +10,7 @@ Hello 🤭. In this guide, you will be informed about how to have longer battery
 - **Performing resource intensive tasks a lot** - such as gaming, especially gaming with high settings
 Of course these are known factors and managing them should be your first step for a longer lasting battery. Now let's get into more detailed parts.
 ## Major Suggestion - Install A Custom ROM (Optional)
-- First of all, I definitely suggest you to install a **custom ROM** because stock ROMs are full of **bloatware (unwanted apps)** and custom ROMs are more **lightweight** and generally **barebone**. The ROMs I can suggest is **LineageOS**, if your device is not supported, I suggest **CrDroid** instead.
+- First of all, I definitely suggest you to install a **custom ROM** because stock ROMs are full of **bloatware (unwanted apps)** and custom ROMs are more **lightweight** and generally **barebone**. The ROMs I can suggest are **LineageOS** and **CrDroid**.
 - If you want to keep using your current ROM, you can skip to [the next step](https://github.com/cutiepenguins/Android-Longer-Battery-Life-Guide/blob/main/README.md#other-suggestions---for-everyone-regardless-of-the-rom).
 - Assuming you installed one of these ROMs or any other **Vanilla ROM**, I am continuing with my next suggestion after installing a Vanilla ROM: **MicroG**
 ### MicroG

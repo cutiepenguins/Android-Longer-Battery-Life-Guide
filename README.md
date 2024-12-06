@@ -1,5 +1,5 @@
 # Android Longer Battery Life Guide
-Hello. In this guide, I will inform you about how to have longer battery life. Let's begin!
+Hello 🤭. In this guide, I will inform you about how to have longer battery life. Let's begin!
 ## Factors That Cause Your Battery to Drain Faster
 - **Location services**
 - **Bluetooth**
@@ -38,4 +38,4 @@ Of course these are known factors and managing them should be your first step fo
 - **The last** important suggestion is checking your **battery health** and if it's lower than 80%, **replacing the battery**. You can see your battery health installing `AccuBattery` and charging your phone from **14% (or lower)** to **100%**.
 - Other suggestions I can make are basic things like **using wallpapers with darker colors, limiting battery usage for apps (app battery optimizations) and avoiding [factors that cause your battery to drain faster](https://github.com/cutiepenguins/Android-Longer-Battery-Life-Guide/blob/main/README.md#factors-that-cause-your-battery-to-drain-faster) etc.**
 ## Conclusion
-This guide was about how to get a longer battery life on your Android device. I hope it was useful for you. Have a nice day!
+This guide was about how to get a longer battery life on your Android device. I hope it has been useful for you. Have a nice day! 🐧

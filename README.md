@@ -2,6 +2,7 @@
 Hello 🤭. In this guide, you will be informed about how to have longer battery life on your Android device. Let's begin!
 ## Factors That Cause Your Battery to Drain Faster
 - **Location services**
+- **Auto Sync**
 - **Bluetooth**
 - Keeping **mobile data** and **Wi-Fi** enabled at the same time
 - Keeping **brightness too bright**

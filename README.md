@@ -27,7 +27,7 @@ Hello 🤭. In this guide, you will be informed about how to have longer battery
       - `adb shell wm density [DPI value]` - for **Xiaomi Redmi Note 8**, `270` is an ideal value for DPI. You can experiment it for your screen.
     - If the commands fail on your phone, you should **root your phone** first, and execute the commands below in order.
       - `adb shell`
-      - `su`
+      - `su` - during this command, you will be asked to grant **Shell** root permissions in your phone. You should grant the permission.
       - `wm size [resolution]`
       - `wm density [DPI value]`
 - My **second** suggestion is **using battery saver mode**. However, if it **doesn't** specify that **the battery saver restricts CPU cores**, you don't have to enable it since it only restricts background processes which doesn't help with battery life at all.

@@ -11,14 +11,14 @@ Hello 🤭. In this guide, you will be informed about how to have longer battery
 - **Performing resource intensive tasks a lot** - such as gaming, especially gaming with high settings
 - Of course these are known factors and managing them should be your first step for a longer lasting battery. Now let's get into more detailed parts.
 ## Major Suggestion - Install A Custom ROM (Optional)
-- First of all, I definitely suggest you to install a **custom ROM** because stock ROMs are full of **bloatware (unwanted apps)** and custom ROMs are more **lightweight** and generally **barebone**. The ROMs I can suggest are **LineageOS** and **CrDroid**.
+- First of all, I definitely suggest you to install a **custom ROM** because stock ROMs are full of **bloatware (unwanted apps)** and custom ROMs are more **lightweight**. The ROMs I can suggest are **LineageOS** and **CrDroid**.
 - If you want to keep using your current ROM, you can skip to [the next step](https://github.com/cutiepenguins/Android-Longer-Battery-Life-Guide/blob/main/README.md#other-suggestions---for-everyone-regardless-of-the-rom).
 - Assuming you installed one of these ROMs or any other **Vanilla ROM**, I am continuing with my next suggestion after installing a Vanilla ROM: **MicroG**
 ### MicroG
 - MicroG is an **open source re-implementation of Google services and libraries** that respects your privacy and consumes **way less CPU and other resources** compared to **Google services and libraries** which granted almost twice better battery life on my Xiaomi Redmi Note 8. All you have to do is **installing .apk files from the** [website](https://microg.org/download.html). It is so easy! Also, **Huawei** devices can use MicroG! For further information, you can follow my [MicroG Guide](https://github.com/cutiepenguins/MicroG-Guide).
 ## Other Suggestions - For Everyone Regardless of the ROM
-- My **first** suggestion is **reducing screen resolution**. It **doesn't** help with battery life **drastically** but it sure helps. However, it **drastically improves performance** since your CPU and GPU work under less loads. So, it's good both ways. 
-  - If your manufacturer lets you to reduce **screen resolution**, choose the reduced screen resolution. If not, you can still make it using **ADB** but you need **a computer** and your **phone must be rooted** for it. However, **AOSP ROMs don't require root for it**.
+- My **first** suggestion is **reducing screen resolution**. It **doesn't** help with battery life **drastically** but it surely helps. However, it **drastically improves performance** since your CPU and GPU work under fewer loads. So, it's good both ways. 
+  - If your manufacturer lets you reduce **screen resolution**, choose the reduced screen resolution. If not, you can still do it using **ADB** but you need **a computer** and your **phone must be rooted** for it. However, **AOSP ROMs don't require root for it**.
     - You can install, set up and connect your phone to ADB [following this guide](https://www.xda-developers.com/install-adb-windows-macos-linux/)
     -  After connecting, google your phone model and check its native resolution. For my case, my phone **Xiaomi Redmi Note 8's** native resolution is `1080x2340` which makes it **1080p**, so I'll reduce to **720p** to balance quality and battery life.
     - After the step, execute this command to change screen resolution:

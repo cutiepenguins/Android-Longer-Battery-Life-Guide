@@ -38,4 +38,4 @@ Hello 🤭. In this guide, you will be informed about how to have longer battery
 - Other suggestions I can make are basic things like **using wallpapers with darker colors, limiting battery usage for apps (app battery optimizations), using web versions of some apps you use by adding the websites to home screen as a shortcut and avoiding [factors that cause your battery to drain faster](https://github.com/cutiepenguins/Android-Longer-Battery-Life-Guide/blob/main/README.md#factors-that-cause-your-battery-to-drain-faster) etc.**
 - Also, keeping your battery level between **20% and 80%** is very important since it is scientifically proved that Li-Ion batteries work the most efficient when battery levels are kept between 20% and 80%. It also helps your battery health to not reduce.
 ## Conclusion
-This guide was about how to get a longer battery life on your Android device. I hope it has been useful. Thank you for reading, have a nice day! 🐧
+This guide was about how to get a longer battery life on your Android device. I hope the guide has been useful. Thank you for reading, have a nice day! 🐧
